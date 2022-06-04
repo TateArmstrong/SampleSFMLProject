@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory 'c:/Users/Tate/Documents/C++ Projects/SampleSFMLProject'
+g++ -IC:\SFML-2.5.1\include -c main.cpp -o main.o
+g++ -LC:\SFML-2.5.1\lib -static .\main.o -o SFMLSample.exe -lsfml-graphics -lsfml-window -lsfml-system
+make: Leaving directory 'c:/Users/Tate/Documents/C++ Projects/SampleSFMLProject'
+ 
