@@ -3,7 +3,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Conway's Game of Life");
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Sample SFML Window");
     window.setKeyRepeatEnabled(false);
     window.setFramerateLimit(144);
 
